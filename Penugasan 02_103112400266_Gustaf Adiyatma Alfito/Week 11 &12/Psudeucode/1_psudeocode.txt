@@ -1,0 +1,16 @@
+program LoginSukses
+variabel
+    jumlah: integer
+    username, password: string
+    selesai: boolean
+algoritma
+    jumlah = -1
+    selesai = false
+    while selesai = false do
+        input(username, password)
+        jumlah = jumlah + 1
+        selesai = (username = "admin" and password = "admin")
+    end while
+    output(jumlah)
+    output("Login berhasil")
+end program

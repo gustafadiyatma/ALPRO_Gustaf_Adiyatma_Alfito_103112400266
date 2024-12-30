@@ -1,0 +1,18 @@
+program Kapasitas
+variabel
+    kapasitas, volume, hasil: integer
+    selesai: boolean
+algoritma
+    input(kapasitas)
+    hasil = 0
+    selesai = false
+
+    while selesai = false do
+        input(volume)
+        hasil = hasil + volume
+        if hasil >= kapasitas then
+            selesai = true
+        end if
+        output(selesai)
+    end while
+end program

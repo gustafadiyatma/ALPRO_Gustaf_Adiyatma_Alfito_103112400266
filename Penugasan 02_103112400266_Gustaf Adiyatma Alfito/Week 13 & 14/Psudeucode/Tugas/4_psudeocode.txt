@@ -1,0 +1,20 @@
+program CariDigitTerbesar
+variabel
+    angka: integer
+    terbesar: integer
+    digit: integer
+
+algoritma
+    input(angka)
+    terbesar = 0
+
+    while angka > 0 do
+        digit = angka mod 10
+        if digit > terbesar then
+            terbesar = digit
+        end if
+        angka = angka div 10
+    end while
+
+    output(terbesar)
+end program

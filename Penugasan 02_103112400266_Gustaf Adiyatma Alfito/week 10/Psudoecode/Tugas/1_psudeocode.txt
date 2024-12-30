@@ -1,0 +1,13 @@
+program JenisSegitiga
+variabel
+    sisi1, sisi2, sisi3: integer
+algoritma
+    input(sisi1, sisi2, sisi3)
+    if sisi1 == sisi2 and sisi2 == sisi3 then
+        output("Segitiga Sama Sisi")
+    else if sisi1 == sisi2 or sisi2 == sisi3 or sisi1 == sisi3 then
+        output("Segitiga Sama Kaki")
+    else
+        output("Segitiga Sembarang")
+    end if
+end program

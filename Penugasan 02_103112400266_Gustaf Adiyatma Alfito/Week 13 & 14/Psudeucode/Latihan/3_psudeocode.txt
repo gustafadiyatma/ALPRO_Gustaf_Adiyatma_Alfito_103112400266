@@ -1,0 +1,13 @@
+program MatriksAngka
+variabel
+    n, k, j: integer
+algoritma
+    input(n)
+
+    for j = 1 to n do
+        for k = 1 to n do
+            output(k, " ")
+        end for
+        output("\n")
+    end for
+end program
